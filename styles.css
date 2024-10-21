@@ -1,0 +1,32 @@
+/* 全局設定 */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header 背景樣式 */
+header {
+  background: linear-gradient(to right, #007bff, #0056b3);
+}
+
+/* 輪播圖片固定大小 */
+.carousel-item img {
+  width: 100%;       /* 讓圖片寬度填滿容器 */
+  height: 500px;     /* 固定高度 */
+  object-fit: cover; /* 確保圖片不變形並填滿 */
+}
+
+/* 調整標題樣式 */
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* 固定頁尾在底部 */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
